@@ -13,7 +13,7 @@ Please see here for more details on twist message type: http://docs.ros.org/en/a
 night rider has this configuration for the values in the twist message
 ```
 linear: 
-  x: 0.0   <---- This value controls the forward and backward direction (depending on the sign +/-), value is set up in standard meters per second (m/s)
+  x: 0.0   <---- This value controls the forward and backward direction (depending on the sign +/-), set up in standard meters per second (m/s)
   y: 0.0
   z: 0.0   <---- This value controls the brake and is normalized. therefor 0 = off, 1 = full brake and 0.5 = half brake
 angular: 
@@ -50,3 +50,9 @@ Subscribe to a night_rider **RecvStatus** message type on to the ROS topic:
 /night_rider/recv_status
 ```
 Please the "msg" folder in this ROS driver for the message type decription
+
+
+# Support
+If you have any question or issues with the code, please contact support@indrorobotics.com or add a comment on to this repo
+
+### THANK YOU FROM INDRO ROBOTICS 
