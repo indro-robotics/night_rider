@@ -22,7 +22,7 @@ angular:
   z: 0.0   <---- This value controls the steering and is normalized. therefor 0 = straight, -1 = max left and +1 = max right
 ```
 
-## Publish ROS commands for LED control**
+## Publish ROS commands for LED control
 
 Publish to a night_rider **LedCmd** message type on to the ROS topic:
 ```
